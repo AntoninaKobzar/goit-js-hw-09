@@ -1,0 +1,72 @@
+// :root {
+//     --smaller: .75;
+// }
+
+// * {
+//     box-sizing: border-box;
+//     margin: 0;
+//     padding: 0;
+// }
+
+// html,
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #a6dbf3;
+    font-family: "Helvetica Neue",sans-serif;
+    padding: 25px 25px;
+        
+}
+
+input {
+color: #3e464eea;
+    width: 30%;
+    height: 44px;
+    padding: 25px;
+    border: 1px solid #7e84df;
+    border-radius: 27px;
+    background-color: #fff;
+    font-family: 'HelveticaNeue',sans-serif;
+    font-size: 105%;
+    letter-spacing: .8px;
+}
+.field{
+        display: flex;
+        flex-direction: column;
+        font-size: 1.5em;
+        list-style-type: none;
+        padding: 1em;
+        text-transform: uppercase;
+    }
+button{
+    width: 90px;
+    height: 30px;
+    margin-left: 40px;
+    background-color: #3ea2d1;
+    color: hsl(199, 23%, 16%);
+    border-radius: 5px;
+    border-color: #555997;
+    text-align: center;
+    font-family: 'HelveticaNeue', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #7e84df;
+}
+
+.timer{
+    display: flex;
+    flex-direction: row;
+}
+.value{
+font-family: 'HelveticaNeue', sans-serif;
+font-size: 55px;
+text-align: center;
+
+}
+.label{
+    font-family: 'HelveticaNeue', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
