@@ -42,7 +42,7 @@ button{
     width: 90px;
     height: 30px;
     margin-left: 40px;
-    background-color: #3ea2d1;
+    background-color: #6c7d85;
     color: hsl(199, 23%, 16%);
     border-radius: 5px;
     border-color: #555997;
@@ -51,8 +51,9 @@ button{
     font-size: 15px;
     cursor: pointer;
 }
-button:hover{
-    background-color: #7e84df;
+button:hover,
+button:active {
+    background-color: #6da9f7;
 }
 
 .timer{
